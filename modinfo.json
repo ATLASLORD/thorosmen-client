@@ -1,0 +1,31 @@
+{
+    "identifier": "com.pa.loloares.thorosmen-client",
+    "display_name": "Thorosmen Client",
+    "description": "Adds around 40 unique and extraordinary units, known as Thorosmen, to inject additional excitement and variety into the game. Detailed UNIT WIKI via the github link below. Compatible with Second Wave and S17. ",
+    "author": "Mr.Loló and ARES LORD",
+    "signature": "not yet implemented",
+    "download": "https://github.com/ATLASLORD/Thorosmen/archive/refs/heads/main.zip",
+    "icon": "https://imgur.com/uv9qHGd.gif",
+    "forum": "https://github.com/ATLASLORD/Thorosmen",
+    "category": [
+        "balance",
+        "addon",
+        "unit",
+        "titans"
+    ],
+    "scenes": {
+        "live_game": [
+          "coui://ui/mods/loloares.thorosmen/live_game/voice_audio.js",
+          "coui://ui/mods/loloares.thorosmen/js/audio.js",
+          "coui://ui/mods/loloares.thorosmen/live_game/selection_audio.js"
+    ]
+    },
+    "dependencies": [
+        "com.pa.loloares.thorosmen"
+      ],
+    "context": "client",
+    "date": "2024-07-21",
+    "build": "120799",
+    "version": "2.6.2",
+    "hidden": true
+}
